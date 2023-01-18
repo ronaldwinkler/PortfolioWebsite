@@ -1,0 +1,141 @@
+@media only screen and (max-width:1300px){
+    
+
+
+
+
+
+    #splash-graphic {
+        display: none;
+        visibility:hidden;
+    }
+
+    
+    #about {
+        grid-template-areas:
+            'a-pic a-pic a-about'
+            'a-skills a-skills a-skills';
+        min-width:unset;
+        width:90%;
+    
+    }
+
+    #about-text, #about-title{
+        width:740px;
+    }
+
+    #about-text{
+        height:392px;
+    }
+
+
+    #about-pic{
+        min-width:360px;
+    }
+
+    #about-pic iframe{
+        display:none;
+    }
+
+
+    #about-headshot{
+        display:block;
+        width: 340px;
+        height: 408px;
+        object-fit:cover;
+        margin-top:40px;
+    }
+
+    #skills{
+        width:1120px;
+        margin-top:18px;
+    }
+
+    #skills-blocks{
+        font-size:18px;
+    }
+
+    .skills-block{
+        padding-left:60px;
+    }
+
+    #contact-content-block{
+        flex-direction:column;
+    }
+
+    .c-block{
+        width: 100%;
+    }
+
+    #contact-info {
+        border-bottom: 1px solid #D4D4D4;
+        padding-bottom:20px;
+    }
+
+    #contact-title {
+        padding-top: 60px;
+    }
+
+    #info-blocks{
+        margin:30px auto 0px;
+        padding-bottom:40px;
+        padding-left:330px;
+        width:72%;
+
+    }
+
+    #info-title{
+        margin-left:12%;
+        margin-right:12%;
+    }
+
+    #message-form form {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width:65%;
+    }
+
+    #fmessage{
+        min-height:200px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width:1920px){
+    #about{
+        
+    }
+    #about-text-block, #skills{
+        padding-right:0%;
+    }
+    
+    #about-pic{
+        padding-left:0%;
+    }
+
+
+    #splash-cell {
+        border-right: 4px solid rgba(69, 106, 122,0.7);
+        border-left: 4px solid rgba(69, 106, 122,0.7);
+    }
+
+
+
+
+
+}
+
+/* used to fix spacing issues in contact tab when re-sizing to medium size */
+@media only screen and (min-width:1300px) and (max-width:1620px) {
+    #info-blocks {
+        margin: 25px auto 0px;
+    }
+
+    #fmessage{
+        min-height:200px;
+    }
+}

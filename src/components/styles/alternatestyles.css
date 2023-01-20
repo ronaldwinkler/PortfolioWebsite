@@ -17,11 +17,12 @@
     
     #about {
         grid-template-areas:
-            'a-about a-about a-about'
-            'a-skills a-skills a-skills';
+            'a-pic'
+            'a-about'
+            'a-skills';
         min-width:unset;
         width:90%;
-    
+        padding-top:40px;
     }
     
     #about-text, #about-title{
@@ -40,7 +41,7 @@
 
     #about-pic{
         min-width:100px;
-        display:none;
+        min-height:unset;
     }
 
     #about-pic iframe{
@@ -50,10 +51,11 @@
 
     #about-headshot{
         display:block;
-        width: 95%;
-        height: 100vw;
+        width: 50vw;
+        height: 50vw;
         object-fit:cover;
-        margin-top:40px;
+        margin:0 auto 20px;   
+        border:1px solid #808080;
     }
 
     #skills{
@@ -62,22 +64,34 @@
     }
 
     #skills-blocks{
-        font-size:16px;
+        font-size:14px;
     }
 
     .skills-block{
-        padding-left:60px;
+        padding-left:40px;
+    }
+    
+    #projects{
+        width:98%;
+        overflow:hidden;
+        white-space:break-spaces;
+        min-height:unset;
     }
 
+    .projects-content-block {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
 
     .project-cell{
-        min-width:100px;
+        min-width:175px;
         max-width:250px;
         min-height:100px;
         max-height:250px;
-        width:45vw;
-        margin:0px 2px 0px 2px;
+        width:30vw;
+        margin:0px auto 2px;
         height:200px;
+        border:1px solid black;
     }
 
     .p-info{
@@ -85,18 +99,25 @@
     }
 
     .p-info-title{
-        font-size:14px;
+        font-size:12px;
     }
     .p-info-desc{
-        font-size:14px;
+        font-size:12px;
         min-height:unset;
     }
 
     .p-button-code, .p-button-view, .p-button-disabled{
-        font-size:14px;
+        font-size:12px;
         width:80%;
     }
 
+    .spacer{
+        width:35%;
+    }
+
+    #spacer-right {
+        transform: translate(185%, -20px);
+    }
 
     #contact-content-block {
         flex-direction: column;
@@ -115,6 +136,10 @@
         padding-top: 60px;
     }
 
+    #info-title{
+        font-size:30px;
+    }
+
     #info-blocks{
         margin:30px auto 0px;
         padding-bottom:40px;
@@ -122,14 +147,14 @@
         width:72%;
         white-space:nowrap;
         overflow:hidden;
-        font-size:20px;
+        font-size:18px;
     }
 
     .fa-file-pdf{
-        font-size:20px;
+        font-size:17px;
     }
     .fa-envelope {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #info-title {

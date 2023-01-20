@@ -1,8 +1,12 @@
 @media only screen and (max-width:1300px){
     
+    .content-container, #menu, #about{
+        min-width:600px;
+    }
 
-
-
+    #about-text-block{
+        min-width:unset;
+    }
 
 
     #splash-graphic {
@@ -13,24 +17,30 @@
     
     #about {
         grid-template-areas:
-            'a-pic a-pic a-about'
+            'a-about a-about a-about'
             'a-skills a-skills a-skills';
         min-width:unset;
         width:90%;
     
     }
-
+    
     #about-text, #about-title{
-        width:740px;
+        width:100%;
     }
 
+    #about-summary{
+        
+    }
     #about-text{
-        height:392px;
+        height:100%;
+        font-size:18px;
+        width:100%;
     }
 
 
     #about-pic{
-        min-width:360px;
+        min-width:100px;
+        display:none;
     }
 
     #about-pic iframe{
@@ -40,27 +50,56 @@
 
     #about-headshot{
         display:block;
-        width: 340px;
-        height: 408px;
+        width: 95%;
+        height: 100vw;
         object-fit:cover;
         margin-top:40px;
     }
 
     #skills{
-        width:1120px;
-        margin-top:18px;
+        width:99%;
+        margin-top:60px;
     }
 
     #skills-blocks{
-        font-size:18px;
+        font-size:16px;
     }
 
     .skills-block{
         padding-left:60px;
     }
 
-    #contact-content-block{
-        flex-direction:column;
+
+    .project-cell{
+        min-width:100px;
+        max-width:250px;
+        min-height:100px;
+        max-height:250px;
+        width:45vw;
+        margin:0px 2px 0px 2px;
+        height:200px;
+    }
+
+    .p-info{
+        height:100%;
+    }
+
+    .p-info-title{
+        font-size:14px;
+    }
+    .p-info-desc{
+        font-size:14px;
+        min-height:unset;
+    }
+
+    .p-button-code, .p-button-view, .p-button-disabled{
+        font-size:14px;
+        width:80%;
+    }
+
+
+    #contact-content-block {
+        flex-direction: column;
     }
 
     .c-block{
@@ -79,14 +118,23 @@
     #info-blocks{
         margin:30px auto 0px;
         padding-bottom:40px;
-        padding-left:330px;
+        padding-left:30px;
         width:72%;
-
+        white-space:nowrap;
+        overflow:hidden;
+        font-size:20px;
     }
 
-    #info-title{
-        margin-left:12%;
-        margin-right:12%;
+    .fa-file-pdf{
+        font-size:20px;
+    }
+    .fa-envelope {
+        font-size: 18px;
+    }
+
+    #info-title {
+        margin-left: 12%;
+        margin-right: 12%;
     }
 
     #message-form form {

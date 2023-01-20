@@ -31,7 +31,7 @@ class AboutMe extends React.Component {
                     <div id="skills-blocks">
                         <div className="skills-block" id="skill-block-left">
                             <div><i className="fa-solid fa-caret-right"></i> HTML(5) + CSS</div>
-                            <div><i className="fa-solid fa-caret-right"></i> JavaScript(ES6+)</div>
+                            <div><i className="fa-solid fa-caret-right"></i> JavaScript</div>
                             <div><i className="fa-solid fa-caret-right"></i> React.js</div>
                             <div><i className="fa-solid fa-caret-right"></i> React-Native(Expo CLI)</div>
                         </div>

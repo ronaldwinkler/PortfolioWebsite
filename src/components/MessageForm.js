@@ -57,7 +57,7 @@ class MessageForm extends React.Component {
             }
 
 
-            fetch("https://formsubmit.co/ajax/ron+portfolio@ronaldwinkler.com", {
+            fetch("https://formsubmit.co/ajax/rwinkler.dev@gmail.com", {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',

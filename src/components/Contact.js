@@ -34,10 +34,10 @@ class Contact extends React.Component {
                         </div>
                         <div id="info-blocks">
                             <div id="copy-email-alert" className="hide-alert">Email copied to clipboard!</div>
-                            <div><i className="fa-solid fa-file-pdf" />: <a href="/docs/Winkler_Ronald_Resume.pdf" className="info-link" target="_blank" rel="noreferrer">Resume</a></div>
-                            <div><i className="fa-regular fa-envelope" />: <span onClick={this.copyEmail} id="email-link"  className="info-link">Rwinkler.dev@gmail.com</span></div>
-                            <div><i className="fa-brands fa-linkedin" />: <a href="https://linkedin.com/in/ronaldwinkler" className="info-link" target="_blank" rel="noreferrer">Https://linkedin.com/in/ronaldwinkler</a></div>
-                            <div><i className="fa-brands fa-square-twitter" />: <a href="https://twitter.com/rwinklertx" className="info-link" target="_blank" rel="noreferrer">Https://twitter.com/rwinklertx</a></div>
+                            <div><i className="fa-solid fa-file-pdf" />: <a href="/docs/Winkler_Ronald_Resume.pdf" className="info-link" target="_blank" rel="noreferrer" title="Resume">Resume</a></div>
+                            <div><i className="fa-regular fa-envelope" />: <span onClick={this.copyEmail} id="email-link"  className="info-link" title="Copy email to clipboard">Rwinkler.dev@gmail.com</span></div>
+                            <div><i className="fa-brands fa-linkedin" />: <a href="https://linkedin.com/in/ronaldwinkler" className="info-link" target="_blank" rel="noreferrer" title="Linkedin">Https://linkedin.com/in/ronaldwinkler</a></div>
+                            <div><i className="fa-brands fa-square-twitter" />: <a href="https://twitter.com/rwinklertx" className="info-link" target="_blank" rel="noreferrer" title="Twitter">Https://twitter.com/rwinklertx</a></div>
                             
                         </div>
                     </div>

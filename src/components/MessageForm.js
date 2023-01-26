@@ -34,7 +34,7 @@ class MessageForm extends React.Component {
     messageFail() {
 
         // re-enables button if failed to send so user can re-send.
-        document.getElementById('fsubmit').disabled = true;
+        document.getElementById('fsubmit').disabled = false;
 
         return (
             <div id="message-fail">

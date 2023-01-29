@@ -14,7 +14,7 @@ class AboutMe extends React.Component {
             <div id="about" className="max-wrap">
                 <div id="about-pic">
                     <iframe src='https://my.spline.design/untitled-2ca8c306be42ae8de298cfec22b01ac1/' title="3D Ronald" />
-                    <img id="about-headshot" src={about_pic} title="" alt="3D Ronald" />
+                    <img id="about-headshot" src={about_pic} title="3D Ronald" alt="3D Ronald" />
                 </div>
                 <div id="about-text-block">
                     <div id="about-title" className="page-title">About Me</div>
@@ -31,7 +31,7 @@ class AboutMe extends React.Component {
                     <div id="skills-blocks">
                         <div className="skills-block" id="skill-block-left">
                             <div><i className="fa-solid fa-caret-right"></i> HTML(5) + CSS</div>
-                            <div><i className="fa-solid fa-caret-right"></i> JavaScript(ES6+)</div>
+                            <div><i className="fa-solid fa-caret-right"></i> JavaScript</div>
                             <div><i className="fa-solid fa-caret-right"></i> React.js</div>
                             <div><i className="fa-solid fa-caret-right"></i> React-Native(Expo CLI)</div>
                         </div>

@@ -15,7 +15,6 @@ a, a:visited {
 }
 
 
-
 /* --- Generic Styles --- */
 
 .content-container {
@@ -52,7 +51,6 @@ a, a:visited {
 }
 
 #menu a {
-
     color: black;
 }
 
@@ -64,8 +62,7 @@ a, a:visited {
     float: left;
     border-right: 2px solid #E2E2E2;
     height: 32px;
-    margin-top:15px;
-    
+    margin-top:15px;  
 }
 
 #logo img{
@@ -200,10 +197,8 @@ a, a:visited {
 }
 
 #splash-graphic {
-    flex:1;    
-    
+    flex:1;      
     overflow:hidden;
-    
 }
 
 #splash-graphic iframe{
@@ -214,18 +209,13 @@ a, a:visited {
     margin:0 auto;
 }
 
-
-
-
 /* --- About Styles --- */
 
 #about {
     display: grid;
     min-width:1300px;
     max-width: 1500px;
-    
     margin: 0 auto;
-    
     background-color: #F2F4F3;
     padding-top: 140px;
     padding-bottom: 100px;
@@ -255,7 +245,6 @@ a, a:visited {
     flex: 2;
     min-width: 550px;
     grid-area: a-about;
-    
 }
 
 
@@ -274,14 +263,10 @@ a, a:visited {
     font-weight:400;
     display: grid;
     flex-direction: column;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 
 .text-indent {
-    
-    
-    
     padding:15px 20px 0px 20px;
 }
 
@@ -320,7 +305,6 @@ a, a:visited {
     width: 800px;
     margin: 0px auto;
     margin-top:-18px;
-    
 }
 
 #skills-blocks {
@@ -328,13 +312,11 @@ a, a:visited {
     font-size: 16px;
     line-height:25px;
     padding: 10px 10px 10px 10px;
-    border: 1px solid #C9C9C9;
-    
+    border: 1px solid #C9C9C9; 
 }
 
 .skills-block{
     flex:1;
-    
     display:flex;
     flex-direction:column;
     text-align:left;
@@ -357,23 +339,18 @@ a, a:visited {
     padding-bottom:20px;
     width:90%;
     margin: 0 auto;
-    min-height:900px;
-    
+    min-height:900px;  
 }
+
 #projects-title{    
     text-align:center;
     margin-bottom:0px;
-    
-
 }
-
-
 
 #projects-content-blocks {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-top: 0px;
-    
+    padding-top: 0px; 
 }
 
 #spacers {
@@ -420,8 +397,7 @@ a, a:visited {
     border: 1px solid #232323;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 .project-cell:hover .p-info{
@@ -524,9 +500,6 @@ a, a:visited {
 }
 
 .p-button-disabled, .p-button-disabled i {
-    text-decoration:line-through;
-    text-decoration-color:#333333;
-    text-decoration-thickness:2px;
     color: #b5b5b5;
     user-select: none;
 }
@@ -558,7 +531,6 @@ a, a:visited {
     padding-top: 245px;
     width: 95%;
     margin: 0 auto;
-    /*text-shadow: 3px 4px 2px black;*/
 }
 
 .c-block {
@@ -576,24 +548,20 @@ a, a:visited {
     font-size: 46px;
     text-align: center;
     margin-top: 30px;
-    
     margin-left: 5%;
     margin-right: 5%;
     padding-bottom: 20px;
     font-weight: 500;
     border-bottom: 1px solid #1A1A1A;
-    /* text-shadow:3px 4px 2px black;*/
 }
 
 #info-blocks {
     font-size: 28px;
     width: 75%;
- 
     white-space:nowrap;
     min-width: 300px;
     margin: 40px auto 40px;
     min-height: 100px;
-
 }
 
 #info-blocks div{
@@ -650,7 +618,9 @@ a, a:visited {
     font-size:28px;
     margin-left:3px;
 }
+
 /* --- Message Form Styles --- */
+
 #message-form {
 }
 
@@ -660,9 +630,7 @@ a, a:visited {
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto;
-    
-    font-size:18px;
-    
+    font-size:18px;  
 }
 
 #message-form input, textarea {
@@ -702,7 +670,6 @@ a, a:visited {
     border: 1px solid #C9C9C9;
     padding:5px;
     line-height:24px;
-    
 }
 
 
@@ -776,7 +743,6 @@ a, a:visited {
     text-align:center;
     font-size:26px;
     transform:translate(-1px,-1px);
-    
 }
 
 #footer-return:hover{
@@ -812,14 +778,6 @@ a, a:visited {
     flex:1;
 }
 
-#fc-left,#fc-right{
-    
-}
-
-#fc-left{
-    
-}
-
 #fc-center{
     text-align:center;
 }
@@ -832,17 +790,11 @@ a, a:visited {
     padding-top:4px;
 }
 
-
-
 #fc-center-links {
     font-weight:600;
     font-size: 14px;
     margin-top: 3px;
     transform: translateX(9px);
-}
-
-#fc-right{
-
 }
 
 #fc-right-links {
@@ -868,16 +820,15 @@ a, a:visited {
 }
 
 #footer-socials {
-    
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     justify-content: right;
-    
     padding-right:10px;
     padding-top:12px;
 }
 
 .f-social {
+    width:23px;
     font-size: 24px;
     margin-left: 4px;
     margin-right: 4px;

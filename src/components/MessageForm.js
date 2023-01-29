@@ -34,7 +34,7 @@ class MessageForm extends React.Component {
     messageFail() {
 
         // re-enables button if failed to send so user can re-send.
-        document.getElementById('fsubmit').disabled = true;
+        document.getElementById('fsubmit').disabled = false;
 
         return (
             <div id="message-fail">
@@ -57,7 +57,7 @@ class MessageForm extends React.Component {
             }
 
 
-            fetch("https://formsubmit.co/ajax/ron+portfolio@ronaldwinkler.com", {
+            fetch("https://formsubmit.co/ajax/rwinkler.dev@gmail.com", {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',

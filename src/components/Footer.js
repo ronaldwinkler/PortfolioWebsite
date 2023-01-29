@@ -18,9 +18,9 @@ class Footer extends React.Component {
                         <a href="#home" title="Return to top"><i className="fa-solid fa-circle-up" id="footer-return" /></a>
                     </div>
                     <div id="fc-center-links">
-                        <a href="#about">About </a>
-                        <a href="#projects">Projects </a>
-                        <a href="#contact">Contact</a>
+                        <a href="#about" title="About">About </a>
+                        <a href="#projects" title="Projects">Projects </a>
+                        <a href="#contact" title="Contact">Contact</a>
                     </div>
                 </div>
                 <div id="fc-right">
@@ -34,7 +34,7 @@ class Footer extends React.Component {
                     <div id="fc-right-links">
                         <a href="/docs/Winkler_Ronald_Resume.pdf" title="Resume" target="_blank" rel="noreferrer">Resume</a>
                         |
-                        <a href="https://paypal.me/rwtx" target="_blank" rel="noreferrer">Donate</a>
+                        <a href="https://paypal.me/rwtx" title="Paypal" target="_blank" rel="noreferrer">Donate</a>
                     </div>
                 </div>
             </div>

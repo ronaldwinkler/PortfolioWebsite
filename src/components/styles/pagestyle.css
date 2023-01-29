@@ -500,9 +500,6 @@ a, a:visited {
 }
 
 .p-button-disabled, .p-button-disabled i {
-    text-decoration:line-through;
-    text-decoration-color:#333333;
-    text-decoration-thickness:2px;
     color: #b5b5b5;
     user-select: none;
 }
@@ -831,6 +828,7 @@ a, a:visited {
 }
 
 .f-social {
+    width:23px;
     font-size: 24px;
     margin-left: 4px;
     margin-right: 4px;
